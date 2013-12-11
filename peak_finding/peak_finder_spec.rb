@@ -1,4 +1,5 @@
 require 'rspec'
+require_relative './peak_finder'
 
 describe 'Peak finder' do
 
@@ -12,4 +13,5 @@ describe 'Peak finder' do
     find_1d_peak([1, 3, 3, 3, 4]).should == 3
     find_1d_peak([1, 3, 3, 4, 3]).should == 4
   end
+
 end
